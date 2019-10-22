@@ -1,0 +1,97 @@
+site_name: Naaackers Streamer Encyclopedia
+site_author: Naaackers
+repo_name: brianjking/mechanical-keyboards
+repo_url: https://github.com/brianjking/mechanical-keyboards
+
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'blue-grey'
+    accent: 'light-blue'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+
+# Repository
+
+
+# Copyright
+copyright: 'Copyright &copy; 2019 '
+
+extra:
+  feature:
+    tabs: false
+  social:
+    - type: globe
+      link: https://brianjking.io
+    - type: github-alt
+      link: https://github.com/brianjking
+    - type: twitter
+      link: https://twitter.com/brianjking
+    - type: linkedin
+      link: https://www.linkedin.com/in/brianjking
+    - type: globe
+      link: https://brianjking.io
+    - type: reddit
+      link: https://reddit.com/r/mechanicalkeyboards
+
+
+
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - fontawesome_markdown
+
+
+
+
+# Page tree
+nav:
+  - Home: index.md
+  - Purchasing:
+    - HHKB via Amazon Japan: buying/hhkb-amazon-japan.md
+    - Realforce & HHKB's in the USA: buying/realforce-hhkb-usa.md
+    - HHKB Type-S, BT, & JP via Buyee Proxy: buying/hhkb-buyee-proxy.md
+    - Taobao & Superbuy: buying/superbuy-taobao.md
+    - GMK Keycap Database: buying/gmk-keycap-database.md
+  - Building:
+    - Building Services: building/building-services.md
+    - Topre Silencing Solutions: building/topre-silencing-solutions.md
+  - Artisans:
+    - Artisan Keycaps: artisans/artisans.md
+    - Keycap.info Mirror: artisans/keycap-info-mirror.md
+    - Counterfeit Watch: artisans/counterfeit-warning.md
+  - Learning:
+    - Mechanical Keyboard Switch Force Curves: learning/force-curves.md
+    - Keycap Profiles: learning/keycap-profiles.md
+  - Community:
+    - Keyboard Meetups: community/meetups.md
+  - Customization:
+    - Idea23 Dye Sub Cap Printing DIY: customization/idea23-dyesub.md
+  - Contribution: contributing/contribution.md
